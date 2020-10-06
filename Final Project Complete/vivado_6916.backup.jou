@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr  9 09:54:05 2019
+# Process ID: 6916
+# Current directory: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11592 C:\Users\ellen\OneDrive\Documents\Programming\College\VHDL\final_project\final_project.xpr
+# Log file: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/vivado.log
+# Journal file: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.xpr

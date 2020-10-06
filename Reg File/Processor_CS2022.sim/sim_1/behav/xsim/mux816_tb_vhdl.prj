@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Processor_CS2022.srcs/sources_1/new/mux8_16.vhd" \
+"../../../../Processor_CS2022.srcs/sim_1/new/mux816_tb.vhd" \
+
+# Do not sort compile order
+nosort

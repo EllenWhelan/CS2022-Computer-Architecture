@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Apr 11 14:12:49 2019
+# Process ID: 8984
+# Current directory: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10480 C:\Users\ellen\OneDrive\Documents\Programming\College\VHDL\final_project\final_project.xpr
+# Log file: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/vivado.log
+# Journal file: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source data_pathtb.tcl
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/microprog_ctrl.vhd w ]
+add_files C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/microprog_ctrl.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/mux2_8.vhd w ]
+add_files C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/mux2_8.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sim_1/new/mux28_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sim_1/new/mux28_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sim_1/new/microprogCtrl_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sim_1/new/microprogCtrl_tb.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mux2_8bit_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source mux2_8bit_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top microprogCtrltrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source microprogCtrltrl_tb.tcl
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/processor.vhd w ]
+add_files C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/processor.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sim_1/new/processor_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sim_1/new/processor_tb.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top processor_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source processor_tb.tcl
+close_sim
+launch_simulation
+source processor_tb.tcl
+close_sim
+current_sim simulation_3
+close_sim
+current_sim simulation_2
+close_sim
+close_sim

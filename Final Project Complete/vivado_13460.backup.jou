@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr  1 15:13:42 2019
+# Process ID: 13460
+# Current directory: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14180 C:\Users\ellen\OneDrive\Documents\Programming\College\VHDL\final_project\final_project.xpr
+# Log file: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/vivado.log
+# Journal file: C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/control_memory.vhd w ]
+add_files C:/Users/ellen/OneDrive/Documents/Programming/College/VHDL/final_project/final_project.srcs/sources_1/new/control_memory.vhd
+update_compile_order -fileset sources_1
